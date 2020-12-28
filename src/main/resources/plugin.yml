@@ -1,0 +1,16 @@
+name: CommandSpy
+version: ${project.version}
+main: com.crimsonvalkyrie.commandspy.CommandSpy
+api-version: 1.16
+depend: [ LuckPerms ]
+softdepend: [ StaffMonitor ]
+authors: [ null_Zer0 ]
+commands:
+  commandspy:
+    description: Toggles the spying of commands done by all players on the server.
+    aliases: [ cspy ]
+    permission: commandspy.commandspy
+permissions:
+  commandspy.commandspy:
+    description: Gives access to the /commandspy command
+    default: op
